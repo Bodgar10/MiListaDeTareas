@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		878EDB312A983D7800A767EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB302A983D7800A767EA /* AppDelegate.swift */; };
 		878EDB332A983D7800A767EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB322A983D7800A767EA /* SceneDelegate.swift */; };
-		878EDB352A983D7800A767EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB342A983D7800A767EA /* ViewController.swift */; };
+		878EDB352A983D7800A767EA /* MyTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB342A983D7800A767EA /* MyTaskViewController.swift */; };
 		878EDB382A983D7800A767EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878EDB362A983D7800A767EA /* Main.storyboard */; };
 		878EDB3B2A983D7800A767EA /* MiListaDeTareas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB392A983D7800A767EA /* MiListaDeTareas.xcdatamodeld */; };
 		878EDB3D2A983D7900A767EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878EDB3C2A983D7900A767EA /* Assets.xcassets */; };
@@ -17,6 +17,11 @@
 		878EDB4B2A983D7900A767EA /* MiListaDeTareasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB4A2A983D7900A767EA /* MiListaDeTareasTests.swift */; };
 		878EDB552A983D7900A767EA /* MiListaDeTareasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB542A983D7900A767EA /* MiListaDeTareasUITests.swift */; };
 		878EDB572A983D7900A767EA /* MiListaDeTareasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB562A983D7900A767EA /* MiListaDeTareasUITestsLaunchTests.swift */; };
+		878EDB642A983DAA00A767EA /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB632A983DAA00A767EA /* CoreDataManagerTests.swift */; };
+		878EDB672A9841AB00A767EA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB662A9841AB00A767EA /* Task.swift */; };
+		878EDB692A9841BA00A767EA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB682A9841BA00A767EA /* TaskManager.swift */; };
+		878EDB6B2A9841CC00A767EA /* CoreDataTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB6A2A9841CC00A767EA /* CoreDataTaskManager.swift */; };
+		878EDB6E2A9846A200A767EA /* MyTaskViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EDB6D2A9846A200A767EA /* MyTaskViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		878EDB2D2A983D7800A767EA /* MiListaDeTareas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiListaDeTareas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EDB302A983D7800A767EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878EDB322A983D7800A767EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		878EDB342A983D7800A767EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		878EDB342A983D7800A767EA /* MyTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskViewController.swift; sourceTree = "<group>"; };
 		878EDB372A983D7800A767EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878EDB3A2A983D7800A767EA /* MiListaDeTareas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiListaDeTareas.xcdatamodel; sourceTree = "<group>"; };
 		878EDB3C2A983D7900A767EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		878EDB502A983D7900A767EA /* MiListaDeTareasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiListaDeTareasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EDB542A983D7900A767EA /* MiListaDeTareasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiListaDeTareasUITests.swift; sourceTree = "<group>"; };
 		878EDB562A983D7900A767EA /* MiListaDeTareasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiListaDeTareasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		878EDB632A983DAA00A767EA /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
+		878EDB662A9841AB00A767EA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		878EDB682A9841BA00A767EA /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		878EDB6A2A9841CC00A767EA /* CoreDataTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTaskManager.swift; sourceTree = "<group>"; };
+		878EDB6D2A9846A200A767EA /* MyTaskViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,11 @@
 		878EDB2F2A983D7800A767EA /* MiListaDeTareas */ = {
 			isa = PBXGroup;
 			children = (
+				878EDB6C2A9841DA00A767EA /* TaskManager */,
+				878EDB652A98419400A767EA /* Data */,
 				878EDB302A983D7800A767EA /* AppDelegate.swift */,
 				878EDB322A983D7800A767EA /* SceneDelegate.swift */,
-				878EDB342A983D7800A767EA /* ViewController.swift */,
+				878EDB342A983D7800A767EA /* MyTaskViewController.swift */,
 				878EDB362A983D7800A767EA /* Main.storyboard */,
 				878EDB3C2A983D7900A767EA /* Assets.xcassets */,
 				878EDB3E2A983D7900A767EA /* LaunchScreen.storyboard */,
@@ -117,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				878EDB4A2A983D7900A767EA /* MiListaDeTareasTests.swift */,
+				878EDB632A983DAA00A767EA /* CoreDataManagerTests.swift */,
+				878EDB6D2A9846A200A767EA /* MyTaskViewControllerTests.swift */,
 			);
 			path = MiListaDeTareasTests;
 			sourceTree = "<group>";
@@ -128,6 +142,23 @@
 				878EDB562A983D7900A767EA /* MiListaDeTareasUITestsLaunchTests.swift */,
 			);
 			path = MiListaDeTareasUITests;
+			sourceTree = "<group>";
+		};
+		878EDB652A98419400A767EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				878EDB662A9841AB00A767EA /* Task.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		878EDB6C2A9841DA00A767EA /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				878EDB682A9841BA00A767EA /* TaskManager.swift */,
+				878EDB6A2A9841CC00A767EA /* CoreDataTaskManager.swift */,
+			);
+			path = TaskManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878EDB692A9841BA00A767EA /* TaskManager.swift in Sources */,
 				878EDB3B2A983D7800A767EA /* MiListaDeTareas.xcdatamodeld in Sources */,
-				878EDB352A983D7800A767EA /* ViewController.swift in Sources */,
+				878EDB352A983D7800A767EA /* MyTaskViewController.swift in Sources */,
+				878EDB672A9841AB00A767EA /* Task.swift in Sources */,
 				878EDB312A983D7800A767EA /* AppDelegate.swift in Sources */,
+				878EDB6B2A9841CC00A767EA /* CoreDataTaskManager.swift in Sources */,
 				878EDB332A983D7800A767EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878EDB642A983DAA00A767EA /* CoreDataManagerTests.swift in Sources */,
+				878EDB6E2A9846A200A767EA /* MyTaskViewControllerTests.swift in Sources */,
 				878EDB4B2A983D7900A767EA /* MiListaDeTareasTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

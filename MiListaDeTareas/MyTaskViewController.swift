@@ -7,13 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyTaskViewController: UIViewController {
 
+    var taskManager: TaskManager?
+    var lists: [Task]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        lists = taskManager?.getListTask()
     }
-
-
+    
+    
 }
 
